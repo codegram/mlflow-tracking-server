@@ -51,7 +51,7 @@ $ docker run \
     -e AWS_BUCKET=<YOUR_AWS_BUCKET> \
     -e AWS_ACCESS_KEY_ID=<YOUR_AWS_ACCESS_KEY_ID> \
     -e AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY> \
-    foxrider/mlflow-tracking-server:0.2.0
+    foxrider/mlflow-tracking-server:1.4.0
 ```
 
 Access to http://127.0.0.1:5000
