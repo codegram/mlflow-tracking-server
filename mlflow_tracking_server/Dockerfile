@@ -2,7 +2,7 @@ FROM python:3.7
 
 LABEL maintainer "Florian Muchow <flmuchow@gmail.com>"
 
-RUN pip install mlflow==1.3.0 && \
+RUN pip install mlflow==1.4.0 && \
     pip install awscli --upgrade --user && \
     pip install boto3==1.9.240
 
